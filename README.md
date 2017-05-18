@@ -17,12 +17,12 @@ Steps:
 
 3. Check for missing or conflicting BIRADS or indications
    - run script to check view for missing assessemnts (BIRADS) or clinical indications
-    - email discordancies to appropriate clinical staff for QA
+   - email discordancies to appropriate clinical staff for QA
 
 
 4. Look for new pathology reports in HIDRA for any/all MR patients from *previous* year
-  - look for pathology reports within 1 year of breast MR
-   - pull out batch tsv files for data extraction
+     - look for pathology reports within 1 year of breast MR
+      - pull out batch tsv files for data extraction
 
 
 5. Batch path through NLP engine and assign for review
