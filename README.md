@@ -6,7 +6,7 @@ Scripts to conduct breast MR audit using RIS, BCRP, and extracted pathology elem
 Steps:
 
 
-1.	This program compare_ris_and_bcrp_for_scan_data_audit.py takes a single argument; the path to the json config file, which contains all other necessary input and output variables. Compare the RIS (MR billing output) for a given period to the manually entered data in BCRP for the same time
+1.	This program **compare_ris_and_bcrp_for_scan_data_audit.py** takes a single argument; the path to the json config file, which contains all other necessary input and output variables. Compare the RIS (MR billing output) for a given period to the manually entered data in BCRP for the same time
    - match against patient identifier, scan identifier, and scan date for all MRI's
    - email discordancies to appropriate clinical staff for QA
 
