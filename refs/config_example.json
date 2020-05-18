@@ -1,0 +1,27 @@
+{
+"output":{
+	"email_recipients":"",
+	"diff_spreadsheet":"diffs.xlsx",
+    "audit_spreadsheet":"audit.xlsx",
+    "pathology_reports":"path.nlp.tsv",
+    "screening_pathology_reports":"H:/BCRPpathAUDIT/Operations/2018/screening_pathology_reports.nlp.tsv",
+    "non_screening_pathology_reports":"H:/BCRPpathAUDIT/Operations/2018/non_screening_pathology_reports.nlp.tsv"
+	},
+"database":{
+        "BCRP": {
+        	"driver":"{SQL Server}",
+        	"server":"server_name",
+        	"db_name":"data_base_name"
+            },
+        "UW_Feed": {
+          "driver":"{SQL Server}",
+        	"server":"server_name",
+        	"db_name":"database_name"
+            }
+	},
+"input":{
+	"min_date":"01-01-2018",
+	"max_date":"01-01-2019",
+    "path_sites_file":"reference/sites.txt"
+	}
+}
