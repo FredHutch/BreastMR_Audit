@@ -12,7 +12,7 @@ Steps:
 
 
 2. Update indications for scans in BCRP
-   - run stored procedure (from bchin) to update assessment view used for the audit with clinical indications (e.g. screening versus known cancer)
+   - run SQL script (from bchin) **BCRPIndications.sql** to update assessment view used for the audit with clinical indications (e.g. screening versus known cancer)
 
 
 3. Check for missing or conflicting BIRADS or indications
@@ -22,7 +22,7 @@ Steps:
 
 4. Look for new pathology reports in HIDRA for any/all MR patients from *previous* year
      - look for pathology reports within 1 year of breast MR
-      - pull out batch tsv files for data extraction
+     - pull out batch tsv files for data extraction
 
 
 5. Batch path through NLP engine and assign for review
